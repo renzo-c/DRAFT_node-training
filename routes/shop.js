@@ -13,7 +13,7 @@ router.get('/', (req, res, next) => {
     hasProducts: products.length > 0,
     activeShop: true,
     productCSS: true,
-    layout: "main-layout"
+    layout: 'main-layout'
   });
 });
 
