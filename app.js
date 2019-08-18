@@ -2,15 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-var exphbs = require('express-handlebars');
 const app = express();
 
-// Registering templating callback function as extension (.handlebars)
-// Pug was kind of registered by default, that is why this step was obviated
-app.engine('handlebars', exphbs());
-
-app.set('view engine', 'handlebars');
-// app.set('views', 'views');
+app.set('view engine', 'ejs');
+app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
