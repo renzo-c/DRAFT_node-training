@@ -1,9 +1,8 @@
-<%- include('includes/head.ejs')%>
-    <link rel="stylesheet" href="/css/form.css" />
+<%- include('../includes/head.ejs')%>
     <link rel="stylesheet" href="/css/product.css" />
   </head>
   <body>
-<%- include('includes/navigation.ejs')%>
+<%- include('../includes/navigation.ejs')%>
     <main>
       <% if (prods.length > 0) { %>
       <div class="grid">
@@ -32,9 +31,8 @@
         <% } %>
       </div>
       <% } else { %>
-      <h1>My products</h1>
       <p>List of all products...</p>
       <% } %>
     </main>
-<%- include('includes/end.ejs')%>
+<%- include('../includes/end.ejs')%>
 
