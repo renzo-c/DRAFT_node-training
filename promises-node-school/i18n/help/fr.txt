@@ -1,0 +1,23 @@
+Bienvenue dans Promets-Moi Que Ça Ne Fera Pas Mal ! -- un atelier automatisé
+qui explique en détail comment fonctionnent les promesses, et comment s'en
+servir tant dans le navigateur que dans du JS côté serveur.
+
+Ce module est basé sur le module `workshopper` extrait à l’origine de
+`stream-adventure`.
+
+Ce module était à l’origine basé sur Q, mais a depuis évolué pour
+n’utiliser que les promesses ES2015.
+
+Il existe d’autres modules populaires de promesses, qui sont plus ou moins
+compatibles avec les ES2015, par exemple :
+
+  https://github.com/petkaantonov/bluebird
+  https://github.com/tildeio/rsvp.js
+
+Des soucis ?  Des suggestions ?  Des retours à nous faire ?
+
+  https://github.com/stevekane/promise-it-wont-hurt/issues
+
+Tu peux trouver d’autres ateliers géniaux sur :
+
+  http://nodeschool.io

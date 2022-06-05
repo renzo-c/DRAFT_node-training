@@ -1,0 +1,82 @@
+{
+  "title": "Promets-moi Que Ça Ne Fera Pas Mal",
+  "subtitle": "Apprenez à utiliser les promesses dans Node et le navigateur",
+  "exercise": {
+    "warm_up": "Échauffement",
+    "fulfill_a_promise": "Accomplir une promesse",
+    "reject_a_promise": "Rejeter une promesse",
+    "to_reject_or_not_to_reject": "Rejeter ou ne pas rejeter",
+    "always_async": "Toujours asynchrone",
+    "shortcuts": "Raccourcis",
+    "promise_after_promise": "Des promesses et encore des promesses",
+    "values_and_promises": "Valeurs et promesses",
+    "throw_an_error": "Lever une erreur",
+    "an_important_rule": "Une règle importante",
+    "multiple_promises": "Promesses multiples",
+    "fetch_json": "Récupérer du JSON",
+    "do_some_work": "Faire plus de boulot"
+  },
+  "common": {
+    "exercise": {
+      "pass": {
+        "constr": "A utilisé la constructeur Promise",
+        "func": "A utilisé la méthode {{{func}}}",
+        "funcObj": "A utilisé la méthode {{{func}}} avec un objet {{{type}}}",
+        "funcAfter": "A utilisé la méthode {{{after}}} après avoir appelé {{{before}}}",
+        "createdAndUsedFunc": "A créé et utilisé la méthode {{{func}}}"
+      },
+      "fail": {
+        "constr": "Vous n’avez pas utilisé le constructeur Promise",
+        "func": "Vous n’avez pas utilisé la méthode {{{func}}}",
+        "funcObj": "Vous avez utilisé la méthode {{{func}}} avec un objet non-{{{type}}}",
+        "funcAfter": "Vous avez utilisé la méthode {{{after}}} avant d’avoir appelé {{{before}}}",
+        "createdAndUsedFunc": "Vous n’avez pas créé, ou pas utilisé, la méthode {{{func}}}"
+      }
+    }
+  },
+  "exercises": {
+    "reject_a_promise": {
+      "fail": {
+        "successHandler": "Vous y êtes presque ! Vous avez ajouté un gestionnaire de succès plutôt que de rejet via l’appel `.then` de la promesse.  Relisez les instructions, surtout la section Conseils.",
+        "noHandlers": "Vous avez appelé `.then` sans aucune fonction de rappel.  Si besoin, relisez la dernière leçon sur l’utilisation de `.then`."
+      }
+    },
+    "to_reject_or_not_to_reject": {
+      "pass": {
+        "thenBoth": "Vous avez utilisé la méthode `.then` avec ses deux fonctions de rappel"
+      },
+      "fail": {
+        "thenBoth": "Vous n’avez pas utilisé la méthode `.then` en fournissant ses deux fonctions de rappel"
+      }
+    },
+    "shortcuts": {
+      "fail": {
+        "funcOr": "Vous n’avez utilisé ni {{{func1}}} ni {{{func2}}}"
+      }
+    },
+    "promise_after_promise": {
+      "pass": {
+        "returnedPromise": "`first().then` a bien renvoyé une promesse"
+      },
+      "fail": {
+        "returnedPromise": "Vous n’avez pas renvoyé une promesse depuis `first().then`, mais {{{returned}}} à la place"
+      }
+    },
+    "values_and_promises": {
+      "pass": {
+        "returnedSync": "`attachTitle()` a bien renvoyé une valeur"
+      },
+      "fail": {
+        "returnedSync": "`attachTitle()` a renvoyé une promesse.  Renvoyez plutôt une valeur."
+      }
+    },
+    "multiple_promises": {
+      "pass": {
+        "inAll": "Vous avez appelé `.then` au sein de la fonction `all`"
+      },
+      "fail": {
+        "inAll": "Vous n’avez pas appelé `.then` depuis la fonction `all`"
+      }
+    }
+  }
+}

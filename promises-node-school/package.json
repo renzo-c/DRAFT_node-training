@@ -1,0 +1,44 @@
+{
+  "name": "promise-it-wont-hurt",
+  "version": "1.1.3",
+  "description": "This is a Workshop module for learning about promises in node.js",
+  "scripts": {
+    "start": "node ./promise-it-wont-hurt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stevekane/promise-it-wont-hurt.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "promises"
+  ],
+  "author": "Steven Kane",
+  "contributors": [
+    "Christophe Porteneuve <tdd@tddsworld.com>",
+    "Timothy Gu <timothygu99@gmail.com>"
+  ],
+  "license": "MIT",
+  "bin": "./promise-it-wont-hurt.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "@timothygu/workshopper": "^2.7.4",
+    "@timothygu/workshopper-wrappedexec": "^0.1.4",
+    "chalk": "^1.1.3",
+    "es6-promise": "^3.0.2",
+    "node-uuid": "~1.4.1",
+    "q-io": "^1.13.2",
+    "random-word": "^1.0.2",
+    "shasum": "^1.0.2",
+    "split": "^1.0.0",
+    "through2": "^2.0.1",
+    "tuple-stream": "0.0.2",
+    "workshopper-exercise": "^2.3.0",
+    "workshopper-timer": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0"
+  }
+}
