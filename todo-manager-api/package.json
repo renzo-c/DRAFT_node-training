@@ -1,0 +1,13 @@
+{
+  "name": "todo-manager-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Renzo Navarro",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
